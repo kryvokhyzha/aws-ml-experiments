@@ -1,0 +1,29 @@
+{
+  "version" : 0.0,
+  "multiclass_classification_constraints" : {
+    "accuracy" : {
+      "threshold" : 0.5045007032348805,
+      "comparison_operator" : "LessThanThreshold"
+    },
+    "weighted_recall" : {
+      "threshold" : 0.5045007032348805,
+      "comparison_operator" : "LessThanThreshold"
+    },
+    "weighted_precision" : {
+      "threshold" : 0.49847461171593116,
+      "comparison_operator" : "LessThanThreshold"
+    },
+    "weighted_f0_5" : {
+      "threshold" : 0.49356137131072,
+      "comparison_operator" : "LessThanThreshold"
+    },
+    "weighted_f1" : {
+      "threshold" : 0.49171271801642935,
+      "comparison_operator" : "LessThanThreshold"
+    },
+    "weighted_f2" : {
+      "threshold" : 0.4967938095560902,
+      "comparison_operator" : "LessThanThreshold"
+    }
+  }
+}

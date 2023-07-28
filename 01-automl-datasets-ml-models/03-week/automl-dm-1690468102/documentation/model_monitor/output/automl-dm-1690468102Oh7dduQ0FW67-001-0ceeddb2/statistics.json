@@ -1,0 +1,74 @@
+{
+  "version" : 0.0,
+  "dataset" : {
+    "item_count" : 7110,
+    "evaluation_time" : "2023-07-27T14:58:39.939Z"
+  },
+  "multiclass_classification_metrics" : {
+    "confusion_matrix" : {
+      "0" : {
+        "0" : 826,
+        "1" : 810,
+        "-1" : 734
+      },
+      "1" : {
+        "0" : 356,
+        "1" : 1746,
+        "-1" : 268
+      },
+      "-1" : {
+        "0" : 587,
+        "1" : 768,
+        "-1" : 1015
+      }
+    },
+    "accuracy" : {
+      "value" : 0.5045007032348805,
+      "standard_deviation" : 0.0018978575903334128
+    },
+    "weighted_recall" : {
+      "value" : 0.5045007032348805,
+      "standard_deviation" : 0.0018978575903333926
+    },
+    "weighted_precision" : {
+      "value" : 0.49847461171593116,
+      "standard_deviation" : 0.0017166160060176152
+    },
+    "weighted_f0_5" : {
+      "value" : 0.49356137131072,
+      "standard_deviation" : 0.0017295163866314803
+    },
+    "weighted_f1" : {
+      "value" : 0.49171271801642935,
+      "standard_deviation" : 0.0017859655652220994
+    },
+    "weighted_f2" : {
+      "value" : 0.4967938095560902,
+      "standard_deviation" : 0.0018515513701790423
+    },
+    "accuracy_best_constant_classifier" : {
+      "value" : 0.3333333333333333,
+      "standard_deviation" : 0.0024222136909760076
+    },
+    "weighted_recall_best_constant_classifier" : {
+      "value" : 0.3333333333333333,
+      "standard_deviation" : 0.0024222136909760076
+    },
+    "weighted_precision_best_constant_classifier" : {
+      "value" : 0.1111111111111111,
+      "standard_deviation" : 0.001616403796357225
+    },
+    "weighted_f0_5_best_constant_classifier" : {
+      "value" : 0.1282051282051282,
+      "standard_deviation" : 0.0017931384342776446
+    },
+    "weighted_f1_best_constant_classifier" : {
+      "value" : 0.16666666666666666,
+      "standard_deviation" : 0.00212076153351748
+    },
+    "weighted_f2_best_constant_classifier" : {
+      "value" : 0.2380952380952381,
+      "standard_deviation" : 0.0024722522297506116
+    }
+  }
+}
